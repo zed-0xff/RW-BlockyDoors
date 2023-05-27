@@ -1,0 +1,107 @@
+<!-- should be compatible both with "Extended Woodworking" and "Expanded Woodworking" and any other custom _wood_ mods -->
+<Patch>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="WoodLog_Birch"]</xpath>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="Blocky_Doors_BirchDoor"]/costList/WoodLog</xpath>
+          <value>
+            <WoodLog_Birch>25</WoodLog_Birch>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="WoodLog_Oak"]</xpath>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="Blocky_Doors_OakDoor"]/costList/WoodLog</xpath>
+          <value>
+            <WoodLog_Oak>25</WoodLog_Oak>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="Blocky_Doors_DarkOakDoor"]/costList/WoodLog</xpath>
+          <value>
+            <WoodLog_Oak>25</WoodLog_Oak>
+            <Dye>5</Dye>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="WoodLog_Red"]</xpath>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="Blocky_Doors_CrimsonDoor"]/costList/WoodLog</xpath>
+          <value>
+            <WoodLog_Red>25</WoodLog_Red>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="Blocky_Doors_MangroveDoor"]/costList/WoodLog</xpath>
+          <value>
+            <WoodLog_Red>25</WoodLog_Red>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="WoodLog_Green"]</xpath>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="Blocky_Doors_WarpedDoor"]/costList</xpath>
+          <value>
+            <costList>
+              <WoodLog_Green>25</WoodLog_Green>
+            </costList>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="WoodLog_Pine"]</xpath>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="Blocky_Doors_SpruceDoor"]/costList/WoodLog</xpath>
+          <value>
+            <WoodLog_Pine>25</WoodLog_Pine>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="WoodLog_Palm"]</xpath>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="Blocky_Doors_JungleDoor"]/costList/WoodLog</xpath>
+          <value>
+            <WoodLog_Palm>25</WoodLog_Palm>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

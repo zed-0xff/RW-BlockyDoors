@@ -1,0 +1,130 @@
+<!-- Expanded Woodworking adds _lumber_  -->
+<Patch>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="LumberBirch"]</xpath>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="Blocky_Doors_BirchDoor"]/costList</xpath>
+          <value>
+            <costList>
+              <LumberBirch>25</LumberBirch>
+            </costList>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="LumberOak"]</xpath>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="Blocky_Doors_OakDoor"]/costList</xpath>
+          <value>
+            <costList>
+              <LumberOak>25</LumberOak>
+            </costList>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="Blocky_Doors_DarkOakDoor"]/costList</xpath>
+          <value>
+            <costList>
+              <LumberOak>25</LumberOak>
+              <Dye>5</Dye>
+            </costList>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="LumberPine"]</xpath>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="Blocky_Doors_SpruceDoor"]/costList</xpath>
+          <value>
+            <costList>
+              <LumberPine>25</LumberPine>
+            </costList>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="LumberBamboo"]</xpath>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="Blocky_Doors_BambooDoor"]/costList</xpath>
+          <value>
+            <costList>
+              <LumberBamboo>25</LumberBamboo>
+            </costList>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="LumberPalm"]</xpath>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="Blocky_Doors_JungleDoor"]/costList</xpath>
+          <value>
+            <costList>
+              <LumberPalm>25</LumberPalm>
+            </costList>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="LumberCocoa"]</xpath>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="Blocky_Doors_CrimsonDoor"]/costList</xpath>
+          <value>
+            <costList>
+              <LumberCocoa>25</LumberCocoa>
+            </costList>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="LumberCecropia"]</xpath>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="Blocky_Doors_MangroveDoor"]/costList</xpath>
+          <value>
+            <costList>
+              <LumberCecropia>25</LumberCecropia>
+            </costList>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

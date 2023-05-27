@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <ThingDef Name="Blocky_Doors_AcaciaDoor" ParentName="Blocky_Props_AcaciaDoor">
+    <defName>Blocky_Doors_AcaciaDoor</defName>
+    <designationCategory>Blocky</designationCategory>
+    <comps><li Class="Blocky.Doors.CompProperties_Rotatable"/></comps>
+    <costList>
+      <WoodLog>25</WoodLog>
+    </costList>
+  </ThingDef>
+
+  <ThingDef Name="Blocky_Doors_BambooDoor" ParentName="Blocky_Props_BambooDoor">
+    <defName>Blocky_Doors_BambooDoor</defName>
+    <designationCategory>Blocky</designationCategory>
+    <comps><li Class="Blocky.Doors.CompProperties_Rotatable"/></comps>
+    <costList>
+      <WoodLog>25</WoodLog>
+    </costList>
+  </ThingDef>
+
+  <ThingDef Name="Blocky_Doors_BirchDoor" ParentName="Blocky_Props_BirchDoor">
+    <defName>Blocky_Doors_BirchDoor</defName>
+    <designationCategory>Blocky</designationCategory>
+    <comps><li Class="Blocky.Doors.CompProperties_Rotatable"/></comps>
+    <costList>
+      <WoodLog>25</WoodLog>
+    </costList>
+  </ThingDef>
+
+  <ThingDef Name="Blocky_Doors_CrimsonDoor" ParentName="Blocky_Props_CrimsonDoor">
+    <defName>Blocky_Doors_CrimsonDoor</defName>
+    <designationCategory>Blocky</designationCategory>
+    <comps><li Class="Blocky.Doors.CompProperties_Rotatable"/></comps>
+    <costList>
+      <WoodLog>25</WoodLog>
+    </costList>
+  </ThingDef>
+
+  <ThingDef Name="Blocky_Doors_DarkOakDoor" ParentName="Blocky_Props_DarkOakDoor">
+    <defName>Blocky_Doors_DarkOakDoor</defName>
+    <designationCategory>Blocky</designationCategory>
+    <comps><li Class="Blocky.Doors.CompProperties_Rotatable"/></comps>
+    <costList>
+      <WoodLog>25</WoodLog>
+    </costList>
+  </ThingDef>
+
+  <ThingDef Name="Blocky_Doors_IronDoor" ParentName="Blocky_Props_IronDoor">
+    <defName>Blocky_Doors_IronDoor</defName>
+    <designationCategory>Blocky</designationCategory>
+    <comps><li Class="Blocky.Doors.CompProperties_Rotatable"/></comps>
+    <statBases>
+      <MaxHitPoints>160</MaxHitPoints>
+      <Flammability>0</Flammability>
+    </statBases>
+    <costList>
+      <Steel>25</Steel>
+    </costList>
+  </ThingDef>
+
+  <ThingDef Name="Blocky_Doors_JungleDoor" ParentName="Blocky_Props_JungleDoor">
+    <defName>Blocky_Doors_JungleDoor</defName>
+    <designationCategory>Blocky</designationCategory>
+    <comps><li Class="Blocky.Doors.CompProperties_Rotatable"/></comps>
+    <costList>
+      <WoodLog>25</WoodLog>
+    </costList>
+  </ThingDef>
+
+  <ThingDef Name="Blocky_Doors_MangroveDoor" ParentName="Blocky_Props_MangroveDoor">
+    <defName>Blocky_Doors_MangroveDoor</defName>
+    <designationCategory>Blocky</designationCategory>
+    <comps><li Class="Blocky.Doors.CompProperties_Rotatable"/></comps>
+    <costList>
+      <WoodLog>25</WoodLog>
+    </costList>
+  </ThingDef>
+
+  <ThingDef Name="Blocky_Doors_OakDoor" ParentName="Blocky_Props_OakDoor">
+    <defName>Blocky_Doors_OakDoor</defName>
+    <designationCategory>Blocky</designationCategory>
+    <comps><li Class="Blocky.Doors.CompProperties_Rotatable"/></comps>
+    <costList>
+      <WoodLog>25</WoodLog>
+    </costList>
+  </ThingDef>
+
+  <ThingDef Name="Blocky_Doors_SpruceDoor" ParentName="Blocky_Props_SpruceDoor">
+    <defName>Blocky_Doors_SpruceDoor</defName>
+    <designationCategory>Blocky</designationCategory>
+    <comps><li Class="Blocky.Doors.CompProperties_Rotatable"/></comps>
+    <costList>
+      <WoodLog>25</WoodLog>
+    </costList>
+  </ThingDef>
+
+  <ThingDef Name="Blocky_Doors_WarpedDoor" ParentName="Blocky_Props_WarpedDoor">
+    <defName>Blocky_Doors_WarpedDoor</defName>
+    <designationCategory>Blocky</designationCategory>
+    <comps><li Class="Blocky.Doors.CompProperties_Rotatable"/></comps>
+    <costList>
+      <WoodLog>25</WoodLog>
+      <Dye>5</Dye>
+    </costList>
+  </ThingDef>
+</Defs>
