@@ -7,10 +7,12 @@ namespace Blocky.Doors;
 
 public class Settings : Verse.ModSettings {
     public bool freeRotation;
+    public bool showStuffable;
 
     public override void ExposeData()
     {
         Scribe_Values.Look(ref freeRotation, "freeRotation", false);
+        Scribe_Values.Look(ref showStuffable, "showStuffable", false);
         base.ExposeData();
     }
 }
@@ -20,6 +22,7 @@ public class SettingsTab : Blocky.Core.SettingsTabBase {
 
     public override void Draw(Listing_Standard l){
         l.CheckboxLabeled("Free rotation", ref ModConfig.Settings.freeRotation);
+        l.CheckboxLabeled("Show stuffable doors", ref ModConfig.Settings.showStuffable);
     }
 
     public override void Write(){

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <ThingDef Name="Blocky_Doors_AcaciaDoor_Stuffable" ParentName="Blocky_Props_AcaciaDoor_Stuffable">
+    <defName>Blocky_Doors_AcaciaDoor_Stuffable</defName>
+    <designationCategory>Blocky</designationCategory>
+    <comps><li Class="Blocky.Doors.CompProperties_Rotatable"/></comps>
+  </ThingDef>
+
+  <ThingDef Name="Blocky_Doors_BambooDoor_Stuffable" ParentName="Blocky_Props_BambooDoor_Stuffable">
+    <defName>Blocky_Doors_BambooDoor_Stuffable</defName>
+    <designationCategory>Blocky</designationCategory>
+    <comps><li Class="Blocky.Doors.CompProperties_Rotatable"/></comps>
+  </ThingDef>
+
+  <ThingDef Name="Blocky_Doors_BirchDoor_Stuffable" ParentName="Blocky_Props_BirchDoor_Stuffable">
+    <defName>Blocky_Doors_BirchDoor_Stuffable</defName>
+    <designationCategory>Blocky</designationCategory>
+    <comps><li Class="Blocky.Doors.CompProperties_Rotatable"/></comps>
+  </ThingDef>
+
+  <ThingDef Name="Blocky_Doors_CrimsonDoor_Stuffable" ParentName="Blocky_Props_CrimsonDoor_Stuffable">
+    <defName>Blocky_Doors_CrimsonDoor_Stuffable</defName>
+    <designationCategory>Blocky</designationCategory>
+    <comps><li Class="Blocky.Doors.CompProperties_Rotatable"/></comps>
+  </ThingDef>
+
+  <ThingDef Name="Blocky_Doors_DarkOakDoor_Stuffable" ParentName="Blocky_Props_DarkOakDoor_Stuffable">
+    <defName>Blocky_Doors_DarkOakDoor_Stuffable</defName>
+    <designationCategory>Blocky</designationCategory>
+    <comps><li Class="Blocky.Doors.CompProperties_Rotatable"/></comps>
+  </ThingDef>
+
+  <ThingDef Name="Blocky_Doors_IronDoor_Stuffable" ParentName="Blocky_Props_IronDoor_Stuffable">
+    <defName>Blocky_Doors_IronDoor_Stuffable</defName>
+    <designationCategory>Blocky</designationCategory>
+    <comps><li Class="Blocky.Doors.CompProperties_Rotatable"/></comps>
+  </ThingDef>
+
+  <ThingDef Name="Blocky_Doors_JungleDoor_Stuffable" ParentName="Blocky_Props_JungleDoor_Stuffable">
+    <defName>Blocky_Doors_JungleDoor_Stuffable</defName>
+    <designationCategory>Blocky</designationCategory>
+    <comps><li Class="Blocky.Doors.CompProperties_Rotatable"/></comps>
+  </ThingDef>
+
+  <ThingDef Name="Blocky_Doors_MangroveDoor_Stuffable" ParentName="Blocky_Props_MangroveDoor_Stuffable">
+    <defName>Blocky_Doors_MangroveDoor_Stuffable</defName>
+    <designationCategory>Blocky</designationCategory>
+    <comps><li Class="Blocky.Doors.CompProperties_Rotatable"/></comps>
+  </ThingDef>
+
+  <ThingDef Name="Blocky_Doors_OakDoor_Stuffable" ParentName="Blocky_Props_OakDoor_Stuffable">
+    <defName>Blocky_Doors_OakDoor_Stuffable</defName>
+    <designationCategory>Blocky</designationCategory>
+    <comps><li Class="Blocky.Doors.CompProperties_Rotatable"/></comps>
+  </ThingDef>
+
+  <ThingDef Name="Blocky_Doors_SpruceDoor_Stuffable" ParentName="Blocky_Props_SpruceDoor_Stuffable">
+    <defName>Blocky_Doors_SpruceDoor_Stuffable</defName>
+    <designationCategory>Blocky</designationCategory>
+    <comps><li Class="Blocky.Doors.CompProperties_Rotatable"/></comps>
+  </ThingDef>
+
+  <ThingDef Name="Blocky_Doors_WarpedDoor_Stuffable" ParentName="Blocky_Props_WarpedDoor_Stuffable">
+    <defName>Blocky_Doors_WarpedDoor_Stuffable</defName>
+    <designationCategory>Blocky</designationCategory>
+    <comps><li Class="Blocky.Doors.CompProperties_Rotatable"/></comps>
+  </ThingDef>
+</Defs>
