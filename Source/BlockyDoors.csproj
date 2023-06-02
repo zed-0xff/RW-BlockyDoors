@@ -28,8 +28,8 @@
       <HintPath>..\..\RimWorldWin64_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
       <Private>false</Private>
     </Reference>
-    <Reference Include="Blocky_Props">
-      <HintPath>../../BlockyProps/Assemblies/BlockyProps.dll</HintPath>
+    <Reference Include="BlockyCore">
+      <HintPath>../../BlockyCore/Assemblies/BlockyCore.dll</HintPath>
       <Private>False</Private>
     </Reference>
   </ItemGroup>

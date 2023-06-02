@@ -15,7 +15,7 @@ public class Settings : Verse.ModSettings {
     }
 }
 
-public class SettingsTab : Blocky.Props.SettingsTabBase {
+public class SettingsTab : Blocky.Core.SettingsTabBase {
     public override string Title => "Doors";
 
     public override void Draw(Listing_Standard l){
