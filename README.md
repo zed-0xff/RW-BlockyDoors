@@ -1,7 +1,26 @@
 # Blocky Doors
-[![Blocky Doors](About/Preview.png)](https://steamcommunity.com/sharedfiles/filedetails/?id=)
+[![Blocky Doors](About/Preview.png)](https://steamcommunity.com/sharedfiles/filedetails/?id=2983962533)
 
-FIXME: blah blah
+11 new Minecraft-themed doors with original colors:
+
+1. Acacia Door
+1. Bamboo Door
+1. Birch Door
+1. Crimson Door
+1. Dark Oak Door
+1. Iron Door
+1. Jungle Door
+1. Mangrove Door
+1. Oak Door
+1. Spruce Door
+1. Warped Door
+
++11 stuffable doors with the same look. But stuffable.
+
+Doors can be freely rotated if corresponding option is enabled in mod's settings.
+Extra doors can also be hidden from the Architect menu.
+
+Doors will have vanilla material requirements if no Woodworking mods are installed.
 
 ## Verified compatible/supported mods
 
@@ -10,7 +29,7 @@ FIXME: blah blah
 
 ## You may also like...
 
-[![Market Value Filter](https://steamuserimages-a.akamaihd.net/ugc/2031731300509143773/7E3F3357000603DE56A483382D3D403B9F805248/?imw=268&imh=151&ima=fit&impolicy=Letterbox)](https://steamcommunity.com/sharedfiles/filedetails/?id=2960434569)
+[![Blocky Trees](https://steamuserimages-a.akamaihd.net/ugc/2023851270025376422/A564E01BE53E5BA1D902942FD8C963E30746045F/?imw=268&imh=151&ima=fit&impolicy=Letterbox)](https://steamcommunity.com/sharedfiles/filedetails/?id=2983608933)
 [![Archite Capsule Extractor](https://steamuserimages-a.akamaihd.net/ugc/2031731300509110720/A4105FE6646E0269354C062D3277E1D473F42AA0/?imw=268&imh=151&ima=fit&impolicy=Letterbox)](https://steamcommunity.com/sharedfiles/filedetails/?id=2959446434)
 [![More Hemogen Vats](https://steamuserimages-a.akamaihd.net/ugc/2031731627303743816/286F698E8A1F1A85593DC75F33026CA96874DDB7/?imw=268&imh=151&ima=fit&impolicy=Letterbox)](https://steamcommunity.com/sharedfiles/filedetails/?id=2965143667)
 
