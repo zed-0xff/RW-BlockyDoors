@@ -1,6 +1,21 @@
 <!-- should be compatible both with "Extended Woodworking" and "Expanded Woodworking" and any other custom _wood_ mods -->
 <Patch>
   <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="Bamboo"]</xpath>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="Blocky_Doors_BambooDoor"]/costList/WoodLog</xpath>
+          <value>
+            <Bamboo>25</Bamboo>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+
+  <Operation Class="PatchOperationConditional">
     <xpath>Defs/ThingDef[defName="WoodLog_Birch"]</xpath>
     <match Class="PatchOperationSequence">
       <success>Always</success>

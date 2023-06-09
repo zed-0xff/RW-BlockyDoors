@@ -1,0 +1,52 @@
+<Patch>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="WoodLog_Acacia"]</xpath>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="Blocky_Doors_AcaciaDoor"]/costList</xpath>
+          <value>
+            <costList>
+              <WoodLog_Acacia>25</WoodLog_Acacia>
+            </costList>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="WoodLog_DarkOak"]</xpath>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="Blocky_Doors_DarkOakDoor"]/costList</xpath>
+          <value>
+            <costList>
+              <WoodLog_DarkOak>25</WoodLog_DarkOak>
+            </costList>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="WoodLog_Mangrove"]</xpath>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="Blocky_Doors_MangroveDoor"]/costList</xpath>
+          <value>
+            <costList>
+              <WoodLog_Mangrove>25</WoodLog_Mangrove>
+            </costList>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

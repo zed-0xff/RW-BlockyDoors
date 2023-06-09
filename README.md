@@ -24,13 +24,14 @@ Doors will have vanilla material requirements if no Woodworking mods are install
 
 ## Verified compatible/supported mods
 
+- [Blocky Logs](https://steamcommunity.com/sharedfiles/filedetails/?id=2986960956)
 - [Extended Woodworking](https://steamcommunity.com/sharedfiles/filedetails/?id=836912371)
 - [Expanded Woodworking](https://steamcommunity.com/sharedfiles/filedetails/?id=2882494600)
 
 ## You may also like...
 
 [![Blocky Trees](https://steamuserimages-a.akamaihd.net/ugc/2023851270025376422/A564E01BE53E5BA1D902942FD8C963E30746045F/?imw=268&imh=151&ima=fit&impolicy=Letterbox)](https://steamcommunity.com/sharedfiles/filedetails/?id=2983608933)
-[![Archite Capsule Extractor](https://steamuserimages-a.akamaihd.net/ugc/2031731300509110720/A4105FE6646E0269354C062D3277E1D473F42AA0/?imw=268&imh=151&ima=fit&impolicy=Letterbox)](https://steamcommunity.com/sharedfiles/filedetails/?id=2959446434)
+[![Blocky Logs](https://steamuserimages-a.akamaihd.net/ugc/2021600103462817131/8E593B18A4EE94B8CDC9570FE14977F83D39C482/?imw=268&imh=151&ima=fit&impolicy=Letterbox)](https://steamcommunity.com/sharedfiles/filedetails/?id=2986960956)
 [![More Hemogen Vats](https://steamuserimages-a.akamaihd.net/ugc/2031731627303743816/286F698E8A1F1A85593DC75F33026CA96874DDB7/?imw=268&imh=151&ima=fit&impolicy=Letterbox)](https://steamcommunity.com/sharedfiles/filedetails/?id=2965143667)
 
 https://github.com/zed-0xff/RW-BlockyDoors
