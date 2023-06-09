@@ -127,4 +127,57 @@
       </operations>
     </match>
   </Operation>
+
+  <!-- exp.woodworking + blocky logs -->
+
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="LumberAcacia"]</xpath>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="Blocky_Doors_AcaciaDoor"]/costList</xpath>
+          <value>
+            <costList>
+              <LumberAcacia>25</LumberAcacia>
+            </costList>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="LumberDarkOak"]</xpath>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="Blocky_Doors_DarkOakDoor"]/costList</xpath>
+          <value>
+            <costList>
+              <LumberDarkOak>25</LumberDarkOak>
+            </costList>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="LumberMangrove"]</xpath>
+    <match Class="PatchOperationSequence">
+      <success>Always</success>
+      <operations>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="Blocky_Doors_MangroveDoor"]/costList</xpath>
+          <value>
+            <costList>
+              <LumberMangrove>25</LumberMangrove>
+            </costList>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
 </Patch>
