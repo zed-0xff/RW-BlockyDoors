@@ -11,7 +11,7 @@ public class CompRotatable : ThingComp
 {
 	CompProperties_Rotatable Props => (CompProperties_Rotatable)props;
 
-    static readonly Texture2D RotateIcon = ContentFinder<Texture2D>.Get("Blocky/Doors/UI/Rotate", true);
+    static readonly Texture2D RotateIcon = ContentFinder<Texture2D>.Get("Blocky/UI/Rotate", true);
 
     public override IEnumerable<Gizmo> CompGetGizmosExtra() {
         if( ModConfig.Settings.freeRotation ){
