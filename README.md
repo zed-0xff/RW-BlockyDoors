@@ -22,6 +22,8 @@ Extra doors can also be hidden from the Architect menu.
 
 Doors will have vanilla material requirements if no Woodworking mods are installed.
 
+Not official Minecraft product. Not approved by or associated with Mojang or Microsoft.
+
 ## Verified compatible/supported mods
 
 - [Blocky Logs](https://steamcommunity.com/sharedfiles/filedetails/?id=2986960956)
